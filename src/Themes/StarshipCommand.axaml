@@ -1,0 +1,40 @@
+<!-- Starship Command — telemetry & clean-room; a sterile federation bridge.
+     A flat theme: one set of colours, no Dark/Light variants. The host
+     applies these regardless of the active Avalonia variant. -->
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Surfaces — telemetry whites + cool grays -->
+    <SolidColorBrush x:Key="SidebarBackground"      Color="#E2E8F0" />
+    <SolidColorBrush x:Key="ContentBackground"      Color="#FFFFFF" />
+    <SolidColorBrush x:Key="PanelBackground1"       Color="#F1F5F9" />
+    <SolidColorBrush x:Key="PanelBackground2"       Color="#FFFFFF" />
+    <SolidColorBrush x:Key="PanelBackground3"       Color="#CBD5E1" />
+    <SolidColorBrush x:Key="SubtleBorder"           Color="#94A3B8" />
+
+    <!-- Accents — navy + hazard orange -->
+    <SolidColorBrush x:Key="PrimaryAccent"          Color="#1E3A8A" />
+    <SolidColorBrush x:Key="PrimaryAccentHover"     Color="#2547A8" />
+    <SolidColorBrush x:Key="OnPrimaryAccent"        Color="#FFFFFF" />
+    <SolidColorBrush x:Key="SecondaryAccent"        Color="#EA580C" />
+
+    <!-- Text — slate-900 / slate-600 -->
+    <SolidColorBrush x:Key="TextPrimary"            Color="#0F172A" />
+    <SolidColorBrush x:Key="TextSecondary"          Color="#475569" />
+
+    <!-- Status pairs — federation indicator hues -->
+    <SolidColorBrush x:Key="SuccessBackground"      Color="#D1FAE5" />
+    <SolidColorBrush x:Key="SuccessForeground"      Color="#047857" />
+    <SolidColorBrush x:Key="DangerBackground"       Color="#FEE2E2" />
+    <SolidColorBrush x:Key="DangerForeground"       Color="#B91C1C" />
+    <SolidColorBrush x:Key="InfoBackground"         Color="#DBEAFE" />
+    <SolidColorBrush x:Key="InfoForeground"         Color="#1E3A8A" />
+    <SolidColorBrush x:Key="WarningBackground"      Color="#FED7AA" />
+    <SolidColorBrush x:Key="WarningForeground"      Color="#C2410C" />
+
+    <!-- Composition keys -->
+    <SolidColorBrush x:Key="DropZoneHighlight"      Color="#B41E3A8A" />
+    <SolidColorBrush x:Key="WaveformBrush"          Color="#1E3A8A" />
+    <SolidColorBrush x:Key="LoopInheritForeground"  Color="#475569" />
+    <SolidColorBrush x:Key="LoopForceOnForeground"  Color="#047857" />
+    <SolidColorBrush x:Key="LoopForceOffForeground" Color="#B91C1C" />
+</ResourceDictionary>

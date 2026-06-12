@@ -1,0 +1,40 @@
+<!-- Neon Cyberpunk — the grid; a rainy neon-lit alleyway at midnight.
+     A flat theme: one set of colours, no Dark/Light variants. The host
+     applies these regardless of the active Avalonia variant. -->
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Surfaces — obsidian / grid -->
+    <SolidColorBrush x:Key="SidebarBackground"      Color="#000000" />
+    <SolidColorBrush x:Key="ContentBackground"      Color="#0F172A" />
+    <SolidColorBrush x:Key="PanelBackground1"       Color="#050811" />
+    <SolidColorBrush x:Key="PanelBackground2"       Color="#0F172A" />
+    <SolidColorBrush x:Key="PanelBackground3"       Color="#1E293B" />
+    <SolidColorBrush x:Key="SubtleBorder"           Color="#334155" />
+
+    <!-- Accents — neon magenta + electric cyan -->
+    <SolidColorBrush x:Key="PrimaryAccent"          Color="#FF00FF" />
+    <SolidColorBrush x:Key="PrimaryAccentHover"     Color="#FF3FFF" />
+    <SolidColorBrush x:Key="OnPrimaryAccent"        Color="#0F172A" />
+    <SolidColorBrush x:Key="SecondaryAccent"        Color="#00FFFF" />
+
+    <!-- Text — bright slate on void -->
+    <SolidColorBrush x:Key="TextPrimary"            Color="#E2E8F0" />
+    <SolidColorBrush x:Key="TextSecondary"          Color="#94A3B8" />
+
+    <!-- Status pairs — neon palette -->
+    <SolidColorBrush x:Key="SuccessBackground"      Color="#003322" />
+    <SolidColorBrush x:Key="SuccessForeground"      Color="#00FF66" />
+    <SolidColorBrush x:Key="DangerBackground"       Color="#3D0014" />
+    <SolidColorBrush x:Key="DangerForeground"       Color="#FF0055" />
+    <SolidColorBrush x:Key="InfoBackground"         Color="#00263D" />
+    <SolidColorBrush x:Key="InfoForeground"         Color="#00FFFF" />
+    <SolidColorBrush x:Key="WarningBackground"      Color="#3D2900" />
+    <SolidColorBrush x:Key="WarningForeground"      Color="#FFCC00" />
+
+    <!-- Composition keys -->
+    <SolidColorBrush x:Key="DropZoneHighlight"      Color="#B4FF00FF" />
+    <SolidColorBrush x:Key="WaveformBrush"          Color="#00FFFF" />
+    <SolidColorBrush x:Key="LoopInheritForeground"  Color="#94A3B8" />
+    <SolidColorBrush x:Key="LoopForceOnForeground"  Color="#00FF66" />
+    <SolidColorBrush x:Key="LoopForceOffForeground" Color="#FF0055" />
+</ResourceDictionary>

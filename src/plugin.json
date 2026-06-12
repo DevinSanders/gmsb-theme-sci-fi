@@ -1,0 +1,10 @@
+{
+  "publisher": "github.DevinSanders",
+  "id": "theme.sci-fi",
+  "name": "Sci-Fi",
+  "version": "1.0.0",
+  "author": "Devin Sanders",
+  "description": "Two Sci-Fi palettes: Starship Command (telemetry & clean-room) and Neon Cyberpunk (the grid).",
+  "entryDll": "SciFiThemePlugin.dll",
+  "isTheme": true
+}

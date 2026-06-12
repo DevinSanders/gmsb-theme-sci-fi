@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>SciFiThemePlugin</AssemblyName>
+    <RootNamespace>SciFiThemePlugin</RootNamespace>
+    <IsPackable>false</IsPackable>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- The host supplies SoundBoard.PluginApi and Avalonia at runtime, so
+         reference them at compile time only — ExcludeAssets="runtime" keeps
+         these DLLs out of the published plugin zip. -->
+    <PackageReference Include="SoundBoard.PluginApi" Version="1.0.0-beta.1" ExcludeAssets="runtime" />
+    <PackageReference Include="Avalonia" Version="12.0.4" ExcludeAssets="runtime" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="12.0.4" ExcludeAssets="runtime" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AvaloniaResource Include="Themes/StarshipCommand.axaml" />
+    <AvaloniaResource Include="Themes/NeonCyberpunk.axaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="plugin.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

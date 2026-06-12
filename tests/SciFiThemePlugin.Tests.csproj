@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <!-- xunit.v3 runs as a self-hosted console app. -->
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\SciFiThemePlugin.csproj" />
+    <!-- The plugin references SoundBoard.PluginApi with ExcludeAssets="runtime"
+         (the host supplies it in production), so its DLL never flows here. The
+         test host has no such provider — reference the package with full assets
+         so the assembly lands on the test runtime path. -->
+    <PackageReference Include="SoundBoard.PluginApi" Version="1.0.0-beta.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit.v3" Version="3.2.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.5" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.6.0" />
+    <!-- FluentAssertions MUST stay on 7.x — 8.x switched to a paid Xceed
+         commercial license. Pinned + guarded in .github/dependabot.yml. -->
+    <PackageReference Include="FluentAssertions" Version="7.2.2" />
+    <!-- Avalonia.Headless gives the test process an initialized Avalonia
+         runtime so the embedded avares:// palette dictionaries resolve. -->
+    <PackageReference Include="Avalonia" Version="12.0.4" />
+    <PackageReference Include="Avalonia.Headless.XUnit" Version="12.0.4" />
+  </ItemGroup>
+
+</Project>
