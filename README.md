@@ -9,9 +9,19 @@ Two selectable palettes for science-fiction RPG sessions. Each appears as its ow
 | Starship Command | A sterile, brightly lit federation bridge / corporate lab.  | Navy blue #1E3A8A         | Warning-hazard orange #EA580C |
 | Neon Cyberpunk   | A rainy, neon-lit alleyway at midnight.                     | Neon magenta #FF00FF      | Electric cyan #00FFFF         |
 
-**Starship Command** (telemetry & clean-room) — Crisp high-contrast whites and cool telemetry grays (#F1F5F9), navy-blue primary actions, hazard-orange status warnings. For Starfinder / Traveller / Star Trek Adventures.
+## Preview
 
-**Neon Cyberpunk** (the grid) — Pure obsidian and slate-950 surfaces make UI elements pop dramatically. Blinding neon magenta primary, electric cyan secondary, laser-green success indicators. For Cyberpunk RED / Shadowrun / Blade Runner.
+### Starship Command
+
+Telemetry & clean-room — crisp high-contrast whites and cool telemetry grays (#F1F5F9), navy-blue primary actions, hazard-orange status warnings. For Starfinder / Traveller / Star Trek Adventures.
+
+![Starship Command palette applied to the Game Master Sound Board track list](screenshots/StarshipCommand.png)
+
+### Neon Cyberpunk
+
+The grid — pure obsidian and slate-950 surfaces make UI elements pop dramatically. Blinding neon magenta primary, electric cyan secondary, laser-green success indicators. For Cyberpunk RED / Shadowrun / Blade Runner.
+
+![Neon Cyberpunk palette applied to the Game Master Sound Board track list](screenshots/NeonCyberpunk.png)
 
 ## Install
 
