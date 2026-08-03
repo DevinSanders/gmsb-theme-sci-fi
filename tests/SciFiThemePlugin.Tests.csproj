@@ -28,7 +28,7 @@
     <!-- Avalonia.Headless gives the test process an initialized Avalonia
          runtime so the embedded avares:// palette dictionaries resolve. -->
     <PackageReference Include="Avalonia" Version="12.0.5" />
-    <PackageReference Include="Avalonia.Headless.XUnit" Version="12.0.4" />
+    <PackageReference Include="Avalonia.Headless.XUnit" Version="12.1.1" />
   </ItemGroup>
 
 </Project>
