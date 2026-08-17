@@ -20,7 +20,7 @@
 
   <ItemGroup>
     <PackageReference Include="xunit.v3" Version="3.2.2" />
-    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.5" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="4.0.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.6.0" />
     <!-- FluentAssertions MUST stay on 7.x — 8.x switched to a paid Xceed
          commercial license. Pinned + guarded in .github/dependabot.yml. -->
